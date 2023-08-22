@@ -1,5 +1,6 @@
 import './App.css';
 import FirstFold from './components/FirstFold';
+import HistoryFold from './components/HistoryFold';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar/>
       <FirstFold/>
+      <HistoryFold/>
     </>
   );
 }
