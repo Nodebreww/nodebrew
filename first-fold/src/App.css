@@ -288,6 +288,7 @@ a {
   }
   .left button{
     margin: 10px;
+    padding-left: 45px;
   }
   
   .right {
@@ -338,6 +339,38 @@ a {
     height: 180px;
     top: 56%;
     transform: scale(1.3) ;
+}
+.left button{
+  border: none;
+  background-color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.left i:hover{
+  color: #005ca9;
+}
+
+
+/* celebration */
+.fqYii {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #005ca9;
+  text-align: center;
+  margin-top: 20px;
+}
+.grid img{
+  margin-right: 60px;
+}
+.eHJCkP {
+  width: 484px;
+}
+.grid-left{
+  margin-left: 40px;
+}
+.grid-items{
+  padding: 16px;
 }
   
  
