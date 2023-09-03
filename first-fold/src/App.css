@@ -272,11 +272,6 @@ a {
         filter: brightness(200%);
     }
     
-    
-    
-    
-    
-
 }
 
 @media(max-width: 700px) {
@@ -330,3 +325,156 @@ a {
     }
 
 }
+
+/* Sponsors */
+
+.become_sponsor{
+    background-color: #005ca9;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.head{
+    padding-top: 50px;
+    color: white;
+    font-size: 25px;
+}
+.para {
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #00be8a;
+    padding-top: 40px;
+    overflow-wrap: break-word;
+    padding-bottom: 40px;
+}
+
+.sponsorb{
+    background-color: #e6edfd;
+    color: #005ca9;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+/* carousel */
+
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #333;
+}
+
+.App{
+    display: inline;
+}
+
+.sponsor-section {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.carousel{
+    flex: 1;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.carousel-para {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 400px;
+    word-wrap: break-word;
+    padding-right: 50px;
+}
+
+/* faq section */
+
+.faqs{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.faq_heading{
+    padding-bottom: 50px;
+}
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.left-questions,
+.right-questions {
+    flex: 1;
+    color: black;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 14px;
+    color: #00be8a;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 400px;
+}
+
+
+
+
